@@ -1,0 +1,57 @@
+Collections in Java:
+- Store and manipulate group of objects (A Collection represents a single unit of objects, i.e., a group)
+- Collection in Java is a framework
+- It represents a set of classes and interfaces.
+
+
+*Java Collection Framework*
+
+- The Collection framework represents a unified architecture for storing and manipulating a group of objects. 
+It has:
+Interfaces and its implementations, i.e., classes..Algorithm
+
+List Interface
+Abstract List Class
+Abstract Sequential List Class
+Array List
+Vector Class
+Stack Class
+LinkedList Class
+Queue Interface
+Blocking Queue Interface
+AbstractQueue Class
+PriorityQueue Class
+PriorityBlockingQueue Class
+ConcurrentLinkedQueue Class
+ArrayBlockingQueue Class
+DelayQueue Class
+LinkedBlockingQueue Class
+LinkedTransferQueue
+Deque Interface
+BlockingDeque Interface
+ConcurrentLinkedDeque Class
+ArrayDeque Class
+Set Interface
+Abstract Set Class
+CopyOnWriteArraySet Class
+EnumSet Class
+ConcurrentHashMap Class
+HashSet Class
+LinkedHashSet Class
+SortedSet Interface
+NavigableSet Interface
+TreeSet
+ConcurrentSkipListSet Class
+Map Interface
+SortedMap Interface
+NavigableMap Interface
+ConcurrentMap Interface
+TreeMap Class
+AbstractMap Class
+ConcurrentHashMap Class
+EnumMap Class
+HashMap Class
+IdentityHashMap Class
+LinkedHashMap Class
+HashTable Class
+Properties Class
