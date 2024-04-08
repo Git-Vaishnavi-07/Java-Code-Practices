@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.List;
+
+//duplicate values can be stored
+//It is a factory of the ListIterator interface.
+//ArrayList, LinkedList, Stack, and Vector
+
+//Time Complexity
+//Adding Element in List Interface -- O(1)
+//Remove Element from List Interface --O(N)
+//Replace Element in List Interface -- O(N)
+//Traversing List Interface -- O(N)
+
+public class Main {
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<>();
+        list.add("A");
+        System.out.println(list);
+
+        //You can add, remove, search, reverse and convert to set
+    }
+}
