@@ -2,6 +2,7 @@ Collections in Java:
 - Store and manipulate group of objects (A Collection represents a single unit of objects, i.e., a group)
 - Collection in Java is a framework
 - It represents a set of classes and interfaces.
+- In Java, the Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main “root” interfaces of Java collection classes.
 
 
 *Java Collection Framework*
