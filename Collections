@@ -72,6 +72,7 @@ Queue Interface _________> PriorityQueue
 *Priority Queue*
 The PriorityQueue is based on the priority heap. 
 The elements of the priority queue are ordered according to the natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.
+The poll() method in the PriorityQueue class retrieves and removes the highest priority element from the priority queue. If the priority queue is empty, it returns null.
 Real Time Examples:
 - Task Scheduling
 - Job Scheduling
