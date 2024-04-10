@@ -93,7 +93,11 @@ Set Interface _______> HashSet
                         |________> TreeSet
 
 *HashSet*
-
+- The underlying data structure for HashSet is Hashtable.
+- As it implements the Set Interface, duplicate values are not allowed.
+- Objects that you insert in HashSet are not guaranteed to be inserted in the same order. Objects are inserted based on their hash code.
+- NULL elements are allowed in HashSet.
+- HashSet also implements Serializable and Cloneable interfaces
 
 
 
