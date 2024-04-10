@@ -1,3 +1,4 @@
+
 Collections in Java:
 - Store and manipulate group of objects (A Collection represents a single unit of objects, i.e., a group)
 - Collection in Java is a framework
@@ -10,6 +11,98 @@ Collections in Java:
 - The Collection framework represents a unified architecture for storing and manipulating a group of objects. 
 It has:
 Interfaces and its implementations, i.e., classes..Algorithm
+
+*Interfaces*
+Iterable Interface ----> Collection interface ______> List interface 
+                  |_____________> Queue interface
+                  |_____________> Set interface
+
+
+*List Interface*
+List Interface ___________> ArrayList Class
+              |___________> LinkedList Class
+              |___________> Vector Class
+              |___________> Stack CLass
+
+
+*ArrayList*
+1. ArrayList is Underlined data Structure Resizable Array or Growable Array.
+2. ArrayList Duplicates Are Allowed.
+3. Insertion Order is Preserved.
+4. Heterogeneous objects are allowed.
+5. Null insertion is possible.
+Working:
+- Creates a bigger-sized memory on heap memory (for example memory of double size).
+- Copies the current memory elements to the new memory.
+- The new item is added now as there is bigger memory available now.
+- Delete the old memory.
+https://www.geeksforgeeks.org/synchronization-arraylist-java/
+
+
+*LinkedList*
+Working: Data not stored in continuous fashion. Internally, the LinkedList is implemented using the doubly linked list data structure.
+
+Advantages:
+- Dynamic size
+- Efficient Insertions and Deletions
+- Flexible Iteration
+Disadvantages:
+- Performance: SLower accessing the elements
+- Memory Overhead
+
+*Stack*
+The Stack class is a subclass of the Vector class
+It is a thread-safe class and hence involves overhead when we do not need thread safety. 
+It is recommended to use ArrayDeque for stack implementation as it is more efficient in a single-threaded environment.
+
+It implements:
+- Serializable:
+- Cloneable: This is an interface in Java which needs to be implemented by a class to allow its objects to be cloned.
+- Iterable<E>
+- Collection<E>
+- List<E>
+- RandomAccess: This is a marker interface used by List implementations to indicate that they support fast (generally constant time) random access. Stack implements interface as a part of Vector
+
+
+*Queue Interface*
+Queue Interface _________> PriorityQueue
+              |__________> LinkedList
+              |__________> Deque
+                            |________> ArrayDeque
+*Priority Queue*
+The PriorityQueue is based on the priority heap. 
+The elements of the priority queue are ordered according to the natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.
+Real Time Examples:
+- Task Scheduling
+- Job Scheduling
+- Emergency Room
+- Networking
+
+*ArrayDeque*
+The ArrayDeque class in Java is an implementation of the Deque interface that uses a resizable array to store its elements. 
+This class provides a more efficient alternative to the traditional Stack class, which was previously used for double-ended operations.
+The ArrayDeque class provides constant-time performance for inserting and removing elements from both ends of the queue, making it a good choice for scenarios
+where you need to perform many add and remove operations.
+The ArrayDeque class is not thread-safe, but you can use the Collections.synchronizedDeque method to create a thread-safe version of the ArrayDeque class
+
+*Set Interface*
+Set Interface _______> HashSet
+            |________> LinkedHashSet
+            |________> SortedSet
+                        |________> TreeSet
+
+*HashSet*
+
+
+
+
+*Map Interface*
+
+Map Interface _______> HashMap
+            |________> LinkedHashMap
+            |________> HashTable
+            |________> SortedMap
+                  |________> TreeMap
 
 List Interface
 Abstract List Class
@@ -56,3 +149,7 @@ IdentityHashMap Class
 LinkedHashMap Class
 HashTable Class
 Properties Class
+
+Interview Questions on Collections:
+https://www.geeksforgeeks.org/java-collections-interview-questions/?ref=shm
+https://www.youtube.com/watch?v=Q1FWyk6q5Fg
