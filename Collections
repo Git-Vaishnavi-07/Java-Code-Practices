@@ -99,7 +99,10 @@ Set Interface _______> HashSet
 - NULL elements are allowed in HashSet.
 - HashSet also implements Serializable and Cloneable interfaces
 
-
+*LinkedHashSet*
+The LinkedHashSet is an ordered version of HashSet that maintains a doubly-linked List across all elements.(Internally, LinkedHashSet is implemented as a hash table with a linked list running through it)
+When cycling through LinkedHashSet using an iterator, the elements will be returned in the order in which they were inserted.
+LinkedHashSet class in Java does not allow null elements. 
 
 *Map Interface*
 
@@ -114,6 +117,7 @@ Java HashMap is similar to HashTable, but it is unsynchronized.
 It allows to store the null keys as well, but there should be only one null key object and there can be any number of null values. 
 This class makes no guarantees as to the order of the map. To use this class and its methods, you need to import java.util.HashMap package or its superclass.
 
+*LinkedHash*
 List Interface
 Abstract List Class
 Abstract Sequential List Class
